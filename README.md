@@ -5,5 +5,5 @@ My files for flooble website exercise.
 
 ## Subheader
 
-Take a dive in
+Take a dive in.
 

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="466" height="111" viewBox="0 0 466 111">
+  <text id="F" transform="translate(0 83)" fill="#fff" font-size="79" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">F</tspan></text>
+  <text id="L" transform="translate(62 83)" fill="#3bb99b" font-size="79" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">L</tspan></text>
+  <text id="O" transform="translate(118 83)" fill="#fff" font-size="79" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">O</tspan></text>
+  <text id="O-2" data-name="O" transform="translate(207 83)" fill="#fff" font-size="79" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">O</tspan></text>
+  <text id="B" transform="translate(296 83)" fill="#3bb99b" font-size="79" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">B</tspan></text>
+  <text id="L-2" data-name="L" transform="translate(369 83)" fill="#fff" font-size="79" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">L</tspan></text>
+  <text id="E" transform="translate(425 83)" fill="#fff" font-size="79" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">E</tspan></text>
+</svg>
