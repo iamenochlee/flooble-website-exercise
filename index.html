@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flooble</title>
+</head>
+<body>
+<section>
+
+    <div class="hero">
+        <div class="col col1">
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Store</a></li>
+            </ul>
+        </div>
+
+        <div class="col col2">
+            <div class="col2-text">
+                <ul>
+                    <li><a href="">FlooMail</a></li>
+                    <li><a href="">Images</a></li>
+                </ul>
+            </div>
+            <div class="col2-icons">
+                <div class="bars"><img src="img/bar.svg" alt="grid_icon"></div>
+                <div class="user">
+                    <!-- <img src="img/images.jpeg" alt="user_profile_pic"> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <div id="menuBtn">
+        <img src="img/menu.png" alt="">
+     </div>
+    <div id="sideNav" class="hero2">
+        <div class="row row1">
+            
+                <div><a href="">About</a></div>
+                <div class="bars"><img src="img/bar.svg" alt="grid_icon"></div>
+                <div class="user">
+                    <!-- <img src="img/images.jpeg" alt="user_profile_pic"> -->
+                </div>
+                <div><a href="">Store</a></div>
+                
+           
+        </div>
+
+        <div class="row row2">
+                    <a href="">FlooMail</a>
+                    <a href="">Images</a>
+        </div>
+    </div>
+
+
+
+
+
+    
+    <div class="main">
+        <div class="logo"><img src="img/logo.svg"></div>
+        <div class="search-box">
+            <input type="text" class="search">
+            <div class="icons">
+                <div><img src="img/search.svg" alt=""></div>
+                <div><img src="img/mic.svg" alt=""></div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button type="button">Fooble Search</button>
+            <button>Show Me The Money</button>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="col col1">
+            <ul>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+            </ul>
+        </div>
+        <div class="col col2">
+            <ul>
+                <li><a href="#">© Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
+        
+    </footer>
+
+
+
+    
+
+
+
+
+</section>
+      
+
+
+<script>
+    var menuBtn = document.getElementById("menuBtn");
+    var sideNav = document.getElementById("sideNav");
+
+    sideNav.style.display = "none";
+    menuBtn.onclick = function() {
+        if (sideNav.style.display = "none") {
+            sideNav.style.display = "block";
+            
+        }
+        
+        else {
+            sideNav.style.display = "none";
+        }
+    }
+    
+    
+    
+
+</script>
+
+
+
+
+</body>
+</html>
