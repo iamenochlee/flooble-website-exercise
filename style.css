@@ -455,6 +455,10 @@ section footer .col ul li a{
 
     }
 
+    #menuBtn{
+        display: block;
+    }
+
 
     #menuBtn img{
         display: block;
