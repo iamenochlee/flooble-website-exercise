@@ -4,7 +4,10 @@
     box-sizing: border-box;
     font-family: "Poppins", Arial;
 }
-
+#hamburger-menu{
+    display: none;
+    
+}
 
 :root{
     --background-color :#282c34;
