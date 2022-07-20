@@ -1,12 +1,9 @@
-# Demo
+# Flooble Website Exercise
 
-My files for flooble website exercise.
+## files for flooble website exercise.
+This is a static page, you can check it out here
+https://iamenochlee.github.io/flooble-website-exercise/
+
+feel free to clone this repo
 
 
-## Subheader
-
-Take a dive in.
-
-## Local Development
-
-1. Open index.html in your browser
