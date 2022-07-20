@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", Arial;
 }
-#hamburger-menu{
+#menBtn{
     display: none;
     
 }
