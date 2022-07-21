@@ -1,18 +1,11 @@
 
-    var menuBtn = document.getElementById("menuBtn");
-    var sideNav = document.getElementById("sideNav");
+    const hamburger = document.querySelector("#menuBtn");
+    const navMenu = document.querySelector("#sideNav");
 
-    sideNav.style.display = "none";
-    menuBtn.onclick = function() {
-        if (sideNav.style.display = "none") {
-            sideNav.style.display = "block";
-            
-        }
-        
-        else {
-            sideNav.style.display = "none";
-        }
-    }
+
+    hamburger.addEventListener("click", () =>{
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    })
     
-    
-    
+  

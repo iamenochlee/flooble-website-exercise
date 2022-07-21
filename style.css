@@ -4,10 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", Arial;
 }
-#menuBtn{
-    display: none;
-    
-}
+
 
 :root{
     --background-color :#282c34;
@@ -15,6 +12,12 @@
     --color-white: #f8f8f8;
     --color-green: #3bb99b;
     --color-light: #707070;
+}
+
+section .hero  ul li a:hover,
+section .footer ul li a:hover {
+    color: black;
+
 }
 
 section{
@@ -26,6 +29,10 @@ section{
 section .hero{
     display: flex;
     justify-content: space-between;
+}
+
+section .hero >.col ul li a{
+    color: black;
 }
 
 section .hero .col{
@@ -47,6 +54,11 @@ section .hero .col.col1 ul li{
 section .hero .col.col1 ul li a{
     text-decoration: none;
     color: var(--color-white);
+    transition: 0.3s;
+}
+
+section .hero .col.col1 ul li a:hover{
+    color: black;
 }
 
 /* COLUMN TWO */
@@ -75,6 +87,11 @@ section .hero .col.col2 .col2-text ul li{
 section .hero .col.col2 .col2-text ul li a{
     text-decoration: none;
     color: var(--color-white);
+    transition: 0.3s;
+}
+
+section .hero .col.col2 ul li a:hover{
+    color: black;
 }
 
 section .hero .col.col2 .col2-icons{
@@ -164,6 +181,12 @@ section .main .buttons button{
     border-radius: 4px;
     outline: none;
     border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+section .main .buttons button:hover{
+    background-color: var(--color-light);
+    color: white;
 }
 
 section .main .buttons button:nth-child(1){
@@ -195,10 +218,18 @@ section footer .col ul li{
 section footer .col ul li a{
     text-decoration: none;
     color: var(--color-white);
+    transition: 0.3s;
+}
+section footer .col ul li a:hover{
+    columns: black;
 }
 
 
-    section .hero2 { 
+    section #sideNav { 
+        display: none;
+    }
+
+    #menuBtn{
         display: none;
     }
 
@@ -304,6 +335,11 @@ section footer .col ul li a{
         padding: 10px 16px;
         font-size: 14px;
     }
+
+    section .main .buttons button:hover{
+        background-color: var(--color-light);
+        color: white;
+    }
     
     section .main .buttons button:nth-child(1){
         margin-right: 20px;
@@ -336,7 +372,7 @@ section footer .col ul li a{
     /* MAIN- CONTENT */
     
     section .main{
-        width: 500px;
+        width: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -455,19 +491,40 @@ section footer .col ul li a{
 
     }
 
+
     #menuBtn{
         display: block;
-    }
-
-
-    #menuBtn img{
-        display: block;
-        width: 30px;
         margin: 10px 12px;
         position: absolute;
         right: 0;
         top: 25px;
-        z-index: 2;
+        margin-left: 30px;
+        cursor: pointer;
+    }
+
+    #menuBtn.active span:nth-child(2){
+        opacity: 0;
+    }
+
+    
+    #menuBtn.active span:nth-child(1){
+        transform: translateY(9.5px) rotate(45deg);
+    }
+
+    #menuBtn.active span:nth-child(3){
+        transform: translateY(-9.5px) rotate(-45deg);
+    }
+
+
+    #menuBtn span{
+        width: 25px;
+        height: 4px;
+        display: block;
+        background-color: #eee;
+        padding: 0;
+        margin:5px auto;
+        border-radius: 1.5px ;
+
     }
 
     section .hero2{
@@ -476,12 +533,31 @@ section footer .col ul li a{
 
 
     #sideNav {
-        display: block;
+        display: none;
         position:fixed;
         top:0;
         transition: .3s;
-        width: 100%;
+        width: 90%;
         padding-right: 20px;
+        transition: display 0.3s;
+    }
+
+    #sideNav a{
+        transition: 0.3s;
+    }
+
+    #sideNav a:hover{
+        color: black;
+    }
+
+
+    #sideNav.active{
+        display: block;
+    }
+
+    section .main .search-box .icons div img:first-child{
+        top: -4px;
+        position: relative;
     }
 
 
